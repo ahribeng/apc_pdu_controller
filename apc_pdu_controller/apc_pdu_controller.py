@@ -23,10 +23,10 @@ class SSH(object):
         self._connection = paramiko.SSHClient()
         self._connection.set_missing_host_key_policy(paramiko.AutoAddPolicy())
         self._connection.connect(conn.host, 
-								 username=conn.user,
-								 password=conn.psw,
-								 port=22,
-								 look_for_keys=False)
+				 username=conn.user,
+				 password=conn.psw,
+				 port=22,
+				 look_for_keys=False)
         channel = self._connection.invoke_shell()
         self.stdin = channel.makefile('wb')
         self.stdout = channel.makefile('r')
