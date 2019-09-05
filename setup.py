@@ -4,7 +4,7 @@ setup(
   packages = ['apc_pdu_controller'],
   version = '0.1',
   license='MIT',
-  description = 'SSH Control for APC Model PDU's',
+  description = 'SSH Control for APC Model PDUs',
   author = 'Ahriben Gonzalez',
   author_email = 'ahribeng@gmail.com',
   url = 'https://github.com/user/ahribeng',
