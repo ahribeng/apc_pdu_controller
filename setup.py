@@ -8,7 +8,7 @@ setup(
   author = 'Ahriben Gonzalez',
   author_email = 'ahribeng@gmail.com',
   url = 'https://github.com/user/ahribeng',
-  download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',
+  download_url = 'https://github.com/ahribeng/apc_pdu_controller/archive/v_01.tar.gz',
   keywords = ['SSH', 'APC', 'PDU'],
   install_requires=[
           'paramiko'
